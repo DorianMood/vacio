@@ -96,19 +96,40 @@ function App() {
           <ol className="list-decimal">
             <li>
               <h3>{TEXT.SECTIONS.SHOWS.ITEMS[0]}</h3>
-              <video autoPlay muted loop playsInline controls>
+              <video
+                autoPlay
+                muted
+                loop
+                playsInline
+                controls
+                className="w-full"
+              >
                 <source src={mugler} type="video/webm" />
               </video>
             </li>
             <li>
               <h3>{TEXT.SECTIONS.SHOWS.ITEMS[1]}</h3>
-              <video autoPlay muted loop playsInline controls>
+              <video
+                autoPlay
+                muted
+                loop
+                playsInline
+                controls
+                className="w-full"
+              >
                 <source src={dior} type="video/webm" />
               </video>
             </li>
             <li>
               <h3>{TEXT.SECTIONS.SHOWS.ITEMS[2]}</h3>
-              <video autoPlay muted loop playsInline controls>
+              <video
+                autoPlay
+                muted
+                loop
+                playsInline
+                controls
+                className="w-full"
+              >
                 <source src={freshRawColdTechnoVibe} type="video/webm" />
               </video>
             </li>
@@ -119,27 +140,62 @@ function App() {
           <h2 className="text-3xl">{TEXT.SECTIONS.COMMERCIALS.TITLE}</h2>
           <ul className="grid grid-cols-3">
             <li>
-              <video autoPlay muted loop playsInline controls>
+              <video
+                autoPlay
+                muted
+                loop
+                playsInline
+                controls
+                className="w-full"
+              >
                 <source src={fakoshimaSimplexityObjects} type="video/webm" />
               </video>
             </li>
             <li>
-              <video autoPlay muted loop playsInline controls>
+              <video
+                autoPlay
+                muted
+                loop
+                playsInline
+                controls
+                className="w-full"
+              >
                 <source src={tombogoInTheWild} type="video/webm" />
               </video>
             </li>
             <li>
-              <video autoPlay muted loop playsInline controls>
+              <video
+                autoPlay
+                muted
+                loop
+                playsInline
+                controls
+                className="w-full"
+              >
                 <source src={privateClub} type="video/webm" />
               </video>
             </li>
             <li className="col-span-3">
-              <video autoPlay muted loop playsInline controls>
+              <video
+                autoPlay
+                muted
+                loop
+                playsInline
+                controls
+                className="w-full"
+              >
                 <source src={vkFable} type="video/webm" />
               </video>
             </li>
             <li className="col-span-3">
-              <video autoPlay muted loop playsInline controls>
+              <video
+                autoPlay
+                muted
+                loop
+                playsInline
+                controls
+                className="w-full"
+              >
                 <source src={amazing} type="video/webm" />
               </video>
             </li>
