@@ -95,7 +95,7 @@ function App() {
           <h2 className="text-3xl">{TEXT.SECTIONS.SHOWS.TITLE}</h2>
           <ol className="list-decimal">
             <li>
-              <h3>{TEXT.SECTIONS.SHOWS.ITEMS[0]}</h3>
+              <h3 className="text-xl">{TEXT.SECTIONS.SHOWS.ITEMS[0]}</h3>
               <video
                 autoPlay
                 muted
@@ -108,7 +108,7 @@ function App() {
               </video>
             </li>
             <li>
-              <h3>{TEXT.SECTIONS.SHOWS.ITEMS[1]}</h3>
+              <h3 className="text-xl">{TEXT.SECTIONS.SHOWS.ITEMS[1]}</h3>
               <video
                 autoPlay
                 muted
@@ -121,7 +121,7 @@ function App() {
               </video>
             </li>
             <li>
-              <h3>{TEXT.SECTIONS.SHOWS.ITEMS[2]}</h3>
+              <h3 className="text-xl">{TEXT.SECTIONS.SHOWS.ITEMS[2]}</h3>
               <video
                 autoPlay
                 muted
@@ -205,7 +205,7 @@ function App() {
 
       <footer className="text-2xl p-10">
         <ul>
-          <li>
+          <li className="text-center">
             inst:{" "}
             <a href="http://instagram.com/vac1o" target="_blank">
               vac1o
