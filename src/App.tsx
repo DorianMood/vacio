@@ -1,3 +1,4 @@
+// Images
 import adidas from "./assets/adidas.webp";
 import slp from "./assets/slp.webp";
 import armani from "./assets/armani.webp";
@@ -7,6 +8,16 @@ import fakoshima from "./assets/fakoshima.webp";
 import vk from "./assets/vk.webp";
 import tombogo from "./assets/tombogo.webp";
 import givenchy from "./assets/givenchy.webp";
+
+// Videos
+import mugler from "./assets/video/Mugler Fall Winter 2021 Film.webm";
+import dior from "./assets/video/dior hc 25.webm";
+import freshRawColdTechnoVibe from "./assets/video/Screen Recording 2025-02-16 at 8.11.41 PM_2.webm";
+import fakoshimaSimplexityObjects from "./assets/video/fakoshima_simplexity_objects (720p).webm";
+import tombogoInTheWild from "./assets/video/tombogo_in_the_wild (720p).webm";
+import privateClub from "./assets/video/Private Club Malbec.webm";
+import vkFable from "./assets/video/vk_fable_emi4ka_MM_v2 (1).webm";
+import amazing from "./assets/video/amazing_red (720p).webm";
 
 import { TEXT } from "./constants";
 
@@ -83,15 +94,56 @@ function App() {
         <section className="p-10">
           <h2 className="text-3xl">{TEXT.SECTIONS.SHOWS.TITLE}</h2>
           <ol className="list-decimal">
-            <li>{TEXT.SECTIONS.SHOWS.ITEMS[0]}</li>
-            <li>{TEXT.SECTIONS.SHOWS.ITEMS[1]}</li>
-            <li>{TEXT.SECTIONS.SHOWS.ITEMS[2]}</li>
+            <li>
+              <h3>{TEXT.SECTIONS.SHOWS.ITEMS[0]}</h3>
+              <video autoPlay muted loop playsInline controls>
+                <source src={mugler} type="video/webm" />
+              </video>
+            </li>
+            <li>
+              <h3>{TEXT.SECTIONS.SHOWS.ITEMS[1]}</h3>
+              <video autoPlay muted loop playsInline controls>
+                <source src={dior} type="video/webm" />
+              </video>
+            </li>
+            <li>
+              <h3>{TEXT.SECTIONS.SHOWS.ITEMS[2]}</h3>
+              <video autoPlay muted loop playsInline controls>
+                <source src={freshRawColdTechnoVibe} type="video/webm" />
+              </video>
+            </li>
           </ol>
         </section>
 
         <section className="p-10">
           <h2 className="text-3xl">{TEXT.SECTIONS.COMMERCIALS.TITLE}</h2>
-          <ul></ul>
+          <ul className="grid grid-cols-3">
+            <li>
+              <video autoPlay muted loop playsInline controls>
+                <source src={fakoshimaSimplexityObjects} type="video/webm" />
+              </video>
+            </li>
+            <li>
+              <video autoPlay muted loop playsInline controls>
+                <source src={tombogoInTheWild} type="video/webm" />
+              </video>
+            </li>
+            <li>
+              <video autoPlay muted loop playsInline controls>
+                <source src={privateClub} type="video/webm" />
+              </video>
+            </li>
+            <li className="col-span-3">
+              <video autoPlay muted loop playsInline controls>
+                <source src={vkFable} type="video/webm" />
+              </video>
+            </li>
+            <li className="col-span-3">
+              <video autoPlay muted loop playsInline controls>
+                <source src={amazing} type="video/webm" />
+              </video>
+            </li>
+          </ul>
         </section>
       </main>
 

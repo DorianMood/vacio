@@ -5,7 +5,7 @@ export const TEXT = {
       TITLE: "Selected brands we've worked with",
     },
     SHOWS: {
-      TITLE: "Our View on the Diffetent Moods of Fashion Shows",
+      TITLE: "Our View on the Different Moods of Fashion Shows",
       ITEMS: [
         "avant-garde vibe",
         "elegant bright indie vibe",
